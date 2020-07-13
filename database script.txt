@@ -1,0 +1,11 @@
+CREATE DATABASE aaa;
+
+CREATE TABLE aaa.login (
+    loginid int NOT NULL AUTO_INCREMENT,
+    username varchar(100) NOT NULL,
+    password varchar(100),
+    PRIMARY KEY (loginid)
+);
+
+INSERT INTO aaa.login (username, password)
+VALUES ('sima', 'uday'),('viraj', 'kinjavdekar'),('abin', 'jalmi');
